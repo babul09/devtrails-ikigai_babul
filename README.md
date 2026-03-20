@@ -1,14 +1,12 @@
-Here’s a **clean, natural, GitHub-ready README version** (well-structured, polished, and easy to read):
 
----
 
-# 🟢 Thunai (துணை)
+# Thunai (துணை)
 
 ### *So a bad day doesn’t mean no income.*
 
 ---
 
-## 📌 Problem
+##  Problem
 
 In cities like Chennai, food delivery partners depend entirely on daily work to earn.
 However, their income is highly affected by situations outside their control.
@@ -24,7 +22,7 @@ Despite this, there is **no simple system** that supports them when these disrup
 
 ---
 
-## 💡 Solution
+## Solution
 
 **Thunai** is a simple and practical support system designed for delivery partners.
 
@@ -38,13 +36,13 @@ without requiring the worker to raise any claim.
 
 ---
 
-### 🎯 Core Idea
+###  Core Idea
 
 > A bad day shouldn’t mean no income.
 
 ---
 
-## 🎯 Scope & Design Choices
+## Scope & Design Choices
 
 We intentionally focused on two key situations:
 
@@ -68,9 +66,9 @@ This ensures:
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
-### 🧑‍💼 Worker Flow
+### Worker Flow
 
 1. Delivery partner registers on Thunai
 2. Selects a weekly plan
@@ -86,7 +84,7 @@ If a disruption occurs:
 
 ---
 
-### ⚙️ System Flow
+### System Flow
 
 The system continuously monitors:
 
@@ -112,7 +110,7 @@ The system continuously monitors:
 
 ---
 
-## ⚡ Parametric Approach
+## Parametric Approach
 
 Thunai follows a **parametric model**.
 
@@ -120,7 +118,7 @@ Instead of requiring manual claims,
 support is triggered automatically when predefined conditions are met.
 
 
-<img width="984" height="892" alt="image" src="https://github.com/user-attachments/assets/36daba05-2782-4233-accf-67cd87a2a587" />
+<img width="2043" height="1348" alt="image" src="https://github.com/user-attachments/assets/54695f35-885a-444e-999e-497f0c6d8ded" />
 
 
 ### Examples
@@ -129,11 +127,19 @@ support is triggered automatically when predefined conditions are met.
 * If waiting time crosses a limit → support is triggered
 
 
-<img width="2043" height="1348" alt="image" src="https://github.com/user-attachments/assets/54695f35-885a-444e-999e-497f0c6d8ded" />
 
 
 ---
 
+## System Architecture
+
+
+
+<img width="984" height="892" alt="image" src="https://github.com/user-attachments/assets/36daba05-2782-4233-accf-67cd87a2a587" />
+
+<img width="757" height="1131" alt="image" src="https://github.com/user-attachments/assets/7c405529-bc02-410e-aad9-13870802bbc9" />
+
+---
 ### Benefits
 
 * Faster response
@@ -142,7 +148,7 @@ support is triggered automatically when predefined conditions are met.
 
 ---
 
-## 💰 Weekly Pricing Model
+## Weekly Pricing Model
 
 | Plan  | Price      | Coverage                    |
 | ----- | ---------- | --------------------------- |
@@ -187,7 +193,7 @@ Thunai integrates simple external signals:
 
 ---
 
-## 🛡️ Basic Validation
+## Basic Validation
 
 To ensure correctness:
 
@@ -199,7 +205,7 @@ These checks help prevent incorrect or false triggers.
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 **Frontend**
 
@@ -219,7 +225,7 @@ These checks help prevent incorrect or false triggers.
 
 ---
 
-## 🧭 Development Plan
+## Development Plan
 
 ### Phase 1 — Ideation & Design
 
